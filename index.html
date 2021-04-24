@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pagina de contacto</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form class="my-form">
+  <div class="container">
+    <h1>Contacto</h1>
+    <ul>
+      <li>
+        <select>
+          <option selected disabled>-- Elige una opción --</option>
+          <option>Contacto</option>
+          <option>Aporte</option>
+          <option>Otro</option>      
+        </select>
+      </li>
+      <li>
+        <div class="grid grid-2">
+          <input type="text" placeholder="Nombre" required>  
+          <input type="text" placeholder="Apellido" required>
+        </div>
+      </li>
+      <li>
+        <div class="grid grid-2">
+          <input type="email" placeholder="Email" required>  
+          <input type="tel" placeholder="Telefono">
+        </div>
+      </li>    
+      <li>
+        <textarea placeholder="Mensaje"></textarea>
+      </li>   
+      <li>
+        <input type="checkbox" id="terms">
+        <label for="terms">Estoy de acuerdo con  <a href="">los terminos y condiciones.</a></label>
+      </li>  
+      <li>
+        <div class="grid grid-3">
+          <div class="required-msg">DEBEN LLENARSE TODOS LAS OPCIONES</div>
+          <button class="btn-grid" type="submit" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+            </span>
+            <span class="front">ENVIAR</span>
+          </button>
+          <button class="btn-grid" type="reset" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+            </span>
+            <span class="front">RESTABLECER</span>
+          </button> 
+        </div>
+      </li>    
+    </ul>
+  </div>
+</form>
+<footer>
+  </div>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
